@@ -1,0 +1,374 @@
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.botao{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding:  10px 30px;
+    background-color: #8f2faf;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+.botao2{
+    color: #f1f1f1;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    padding:  10px 30px;
+    background-color: #8f2faf;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+/* Body */
+
+nav{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4d4d4d;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family:  "Pacifico", serif;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display:  inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+/* Cabecalho */
+
+#catabagulho{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#catabagulho h1{
+    margin: 2em;
+}
+
+#catabagulho p {
+    margin-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+}
+
+/* Sobre */
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #8f3faf;
+    color:#f1f1f1;
+}
+
+#sobre p{
+    margin-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+}
+
+#sobre .botao {
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+
+/* Servico */
+
+#servico{
+    padding:  20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servico div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#servico a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Cadastro */
+
+#cadastro div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastro h1, #cadastro h2{
+    text-align: center;
+    padding: 5px;
+}
+
+#cadastro label{
+    width: 100%;
+    padding: 2px 2px 2px 5px;
+}
+
+#cadastro a{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#cadastro input, #cadastro select{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+
+#cadastro button{
+    padding: 10px;
+    width: 70%;
+    align-self: center;
+}
+
+
+/* Acesso */
+
+#acesso div{
+    padding: 10px;
+}
+
+#acesso h1, #acesso h2{
+    text-align: center;
+    padding: 5px;
+}
+
+#acesso label{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#acesso a{
+    padding: 10px;
+    width: 50%;
+}
+
+#acesso input{
+    width: 40%;
+    height: 30px;
+}
+
+
+/* Cliente */
+
+#cliente div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cliente h1, #cliente h2{
+    text-align: center;
+    padding: 5px;
+}
+
+#cliente label{
+    width: 100%;
+    padding: 2px 2px 2px 5px;
+}
+
+#cliente a{
+    padding: 5px;
+    width: 40%;
+    height: 40%;
+}
+
+#cliente input, #cliente select{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+
+/* Agenda */
+
+#agenda div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#agenda h1, #agenda h2{
+    text-align: center;
+    padding: 5px;
+}
+
+#agenda label{
+    width: 100%;
+    padding: 2px 2px 2px 5px;
+}
+
+#agenda a{
+    padding: 5px;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin: 2px;
+}
+
+#agenda input, #agenda select{
+    width: 40%;
+    height: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+/* Contato */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #8f3faf;
+    color:#f1f1f1;
+    padding: 20px;
+}
+
+#contato .botao{
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+
+/* Rodapé */
+
+footer{ 
+    text-decoration: center;
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+/*  Sessão Média */
+
+@media screen and (min-width: 768px) {
+
+    /*  Body   */
+
+    nav{    
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*   Cabecalho   */
+
+    #catabagulho{   
+        height: 60vh;
+        height: 600px;
+        justify-content: center;
+    }   
+
+    /*  Sobre   */
+
+    #sobre{
+        height: 30vh;
+        height: 250px;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*    Servico  */
+
+    #servico{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        min-height: 250px;
+        margin: 0 auto;
+    }
+
+    #servico h2,
+    #servico p{
+        text-align: center;
+        width: 100%;
+    }
+
+    #servico div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /*   Contato  */
+
+    #contato{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-height: 250px;
+        margin: 0 auto;
+    }
+
+    #contato h2,
+    #contato p{
+        width: 100%;
+    }
+
+}

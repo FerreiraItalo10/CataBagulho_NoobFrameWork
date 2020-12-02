@@ -1,0 +1,151 @@
+<html lang="pt_br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cata-Bagulho | Cadastro </title>
+        <link rel="stylesheet" public href="../public/css/style.css" type="text/css" />
+    </head>
+
+    
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost/exercicio/noobframework-master/home">Inicio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="cadastro">
+
+            <form method="post" action="">
+
+            <div>
+                <h1>Dados Pessoais</h1>
+                <label>
+                    <a>
+                        Nome
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu Nome"  required autofocus pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" title="Digite o Nome completo"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        CPF 
+                        <input class="form-control cpf-mask" type="texte" name="cpf" id="cpf" placeholder="Digite apenas os números do CPF" required autofocus pattern="^(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{11})$"  title="Digite o cpf corretamente"></input>
+                    </a>
+                </label>
+                
+                <label>
+                    <a>Sexo
+
+                        <select name="sexo" id="sexo">
+                            <option>Selecione...</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Outros">Outros</option>
+                        </select>  
+                    </a>                  
+                </label>
+
+                <label>
+                    <a>
+                        Data de Nascimento
+                        <input type="date" name="DataNascimento" id="DataNascimento" placeholder="DD/MM/AAAA" required min="1938-01-01" max="2002-11-15"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        E-mail 
+                        <input type="email" name="email" id="email"placeholder="Digite seu E-mail" required name=email title="Preencha o campo E-mail"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        Celular
+                        <input type="tel" name="celular" id="celular" placeholder="(11)xxxxx-xxxx" maxlength="14"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        Senha
+                        <input placeholder="Digite sua Senha" required name=senha title="Preencha o campo Senha" required title="A senha deve conter ao menos 1 letra minúscula, 1 letra maiúscula 1 número ou caractere especial e ter um mínimo de 8 caracteres" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        Confirme sua senha
+                        <input placeholder="Digite sua Senha Novamente"></input>
+                    </a>
+                </label>
+
+                </br>
+
+                <h1>Endereco</h1>
+
+                <label>
+                    <a>
+                        Rua
+                        <input type="text" name="end" id="end" placeholder="Digite o nome da sua Rua" required name=end title="Preencha o campo Rua"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        Numero
+                        <input type="number" name="num" id="num" placeholder="Digite seu Numero" required name=num title="Preencha o campo Numero"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        CEP
+                        <input type="number" name="cep" id="cep" placeholder="Somento Número" required name=cep title="Preencha o campo CEP"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>
+                        Bairro
+                        <input type="text" name="bairro" id="bairro" placeholder="Digite seu Bairro" required name=bairro title="Preencha o campo Bairro"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>Cidade
+
+                        <input type="text" name="cidade" id="cidade" value="Taboão da Serra" readonly="true"></input>
+                    </a>
+                </label>
+
+                <label>
+                    <a>Estado
+
+                        <input type="text" name="estado" id="estado" value="São Paulo" readonly="true"></input>
+                    </a>
+                </label>
+
+                </br>               
+
+                <button type="submit" title="Finalizar cadastro" id="bt">Finalizar cadastro</button>
+                       
+
+            </div> 
+            </form>
+
+        </section>
+    
+    
+        <footer>
+            <p> Desenvolvido pela equipe Cata-Bagulho</p>
+        </footer>
+                
+                
+    </body>
+</html>	
